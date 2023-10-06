@@ -1,6 +1,62 @@
 header {
-    background-color: #333;
+    background-color :rgb(15, 13, 13);
     color: #fff;
     padding: 15px;
     text-align: center;
+    height: 50vh;
+    opacity: 0.8;
+   
+}
+body {
+    background-color: black;
+}
+
+header em {
+   
+    color: crimson;
+}
+#title{
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    align-items: center;
+    height: fit-content;
+}
+#title em{
+    padding-top: 20px;
+}
+#enter-btn{
+    background-color: #0f0e0e;
+    color: rgb(85, 26, 37);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 20px;
+    align-self: center;
+}
+#enter-btn:hover{
+    background-color: rgb(219, 106, 14);
+    color: #fff;
+}
+
+main{
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    padding: 20px;
+    display: none;
+}
+#demo{
+    display: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    align-items: center;
+    height: fit-content;
+    
 }

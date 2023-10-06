@@ -4,20 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/batman-icon-png-2.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="./js/index.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>Batmans Diary</title>
 </head>
 <body>
     <header>
+        <div class="container-fluid" id="title">
         <h1>Batman's Diary: Shadow of Gotham</h1>
         <em>In the dark alleys of Gotham, the Dark Knight stands as a beacon against crime and corruption. But behind the mask lies
         a man with his own fears, hopes, and challenges. "Batman's Diary" offers a rare glimpse into the inner world of this
         enigmatic hero. Dive into his personal chronicles, from nightly patrols to confrontations with iconic foes, and discover
         the heart and soul of Gotham's silent guardian.</em>
+        <button class="btn" id="enter-btn"> Enter </button>    
+        </div> 
+        <p id="demo"></p>
     </header>
 
-    <main>
-          
+    <main id="buttons">
+        <button class="btn" src="./login.html">Login</button>
+        <button class="btn" href="./register.html">Register</button>
     </main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
 </html>
