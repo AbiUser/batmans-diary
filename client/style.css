@@ -50,13 +50,44 @@ main{
     padding: 20px;
     display: none;
 }
-#demo{
+#access{
     display: none;
+     height: 50vh;
+     background-color: rgb(85, 26, 37);
+     align-items: center;
+}
+#demotitle{
+    
+    font-weight: bold;
+    color: #F8F805;
+    text-shadow: 2px 2px 4px #000000;
+    align-items: center;
+    align-items: center;
+    height: fit-content;
+}
+#demoh2{
+   
+    font-weight: bold;
+    color: #A79429;
+    text-shadow: 2px 2px 4px #000000;
+    align-items: center;
+    height: fit-content;
+}
+#demo{
+
     font-size: 1.5em;
     font-weight: bold;
-    color: #fff;
+    color: #967979;
     text-shadow: 2px 2px 4px #000000;
     align-items: center;
     height: fit-content;
     
+}
+footer{
+    background-color: rgb(15, 13, 13);
+    color: #4A5575;
+    padding: 15px;
+    text-align: center;
+    height: 50vh;
+    opacity: 0.8;
 }
